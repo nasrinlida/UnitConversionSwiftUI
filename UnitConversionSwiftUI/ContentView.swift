@@ -36,6 +36,7 @@ struct ContentView: View {
         }
     }
     
+    //This computed propertry outputAmount will show the result in the converted unit.
     var outputAmount: Double {
         if unitList[outputUnit] == "Minute" {
             let secondToMinute = inputAmount / 60
